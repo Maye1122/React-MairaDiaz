@@ -1,3 +1,4 @@
+//Para el NAvbar
 .navbar {
 	background-color: rgb(228, 225, 227);
 	display: flex;
@@ -31,7 +32,13 @@ h1 {
 	display: flex;
 }
 
+//Modificaciones del carrito
 .carrito,
 .navbar__link {
 	font-size: 1.2rem;
+}
+
+//Modificacion de saludo
+.greeting {
+	text-align: center;
 }
