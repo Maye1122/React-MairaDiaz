@@ -1,0 +1,121 @@
+[
+	{
+		"id": 1,
+		"title": "Zapatos casuales para mujer",
+		"description": "Diseño elegante y cómodo, perfecto para el día a día. Disponibles en múltiples tallas.",
+		"price": 45,
+		"picture": "/src/assets/images/foto-1.webp"
+	},
+	{
+		"id": 2,
+		"title": "Jeans de Mujer",
+		"description": "Disponibles en varios colores y estilos. Tela de calidad premium que ofrece comodidad y estilo para cualquier ocasión.",
+		"price": 65.5,
+		"picture": "/src/assets/images/foto-2.webp"
+	},
+	{
+		"id": 3,
+		"title": "Camisa a cuadros roja y blanca",
+		"description": "Estilo clásico con una combinación de corbatas de varios diseños. Ideal para un look casual o semiformal.",
+		"price": 39.7,
+		"picture": "/src/assets/images/foto-3.webp"
+	},
+	{
+		"id": 4,
+		"title": "Anillo con Piedras Dorado",
+		"description": "Elegante anillo dorado con delicadas piedritas brillantes. Ideal para ocasiones especiales o para añadir un toque de glamour a tu día a día.",
+		"price": 100.0,
+		"picture": "/src/assets/images/foto-4.webp"
+	},
+	{
+		"id": 5,
+		"title": " Anillo con Piedra Azul Grande",
+		"description": "Anillo llamativo con una gran piedra azul. Perfecto para quienes buscan un accesorio audaz y sofisticado.",
+		"price": 88.2,
+		"picture": "/src/assets/images/foto-5.webp"
+	},
+	{
+		"id": 6,
+		"title": "Reloj Fossil Clásico",
+		"description": "Reloj Fossil para hombre, estilo clásico y moderno a la vez. Perfecto para cualquier ocasión, con un diseño duradero y elegante.",
+		"price": 179.3,
+		"picture": "/src/assets/images/foto-6.webp"
+	},
+	{
+		"id": 7,
+		"title": "Amatistas Púrpura en Bruto",
+		"description": "Piedritas de amatista moradas, naturales y perfectas para la decoración o como piezas de colección. Belleza pura y elegancia mineral.",
+		"price": 79.5,
+		"picture": "/src/assets/images/foto-7.webp"
+	},
+	{
+		"id": 8,
+		"title": "Collares con Piedras Azules",
+		"description": "Collares delicados con piedras azules brillantes. Añade un toque de elegancia y color a cualquier atuendo.",
+		"price": 36.3,
+		"picture": "/src/assets/images/foto-8.webp"
+	},
+	{
+		"id": 9,
+		"title": "Zapatos Camel - Suela Blanca",
+		"description": "Casuales en color camel con suela blanca. Perfectos para un look relajado pero sofisticado, ideales para el uso diario.",
+		"price": 56.8,
+		"picture": "/src/assets/images/foto-9.webp"
+	},
+	{
+		"id": 10,
+		"title": "Botines Negros",
+		"description": "Botines negros de mujer con un diseño moderno y cómodo. Perfectos para la temporada de invierno o para añadir estilo a tu atuendo diario",
+		"price": 144.4,
+		"picture": "/src/assets/images/foto-10.webp"
+	},
+	{
+		"id": 11,
+		"title": "Cortavientos Bicolor",
+		"description": "Cortavientos ligero de dos colores, ideal para días frescos o lluviosos. Diseño cómodo y funcional para el uso diario o actividades al aire libre.",
+		"price": 91.1,
+		"picture": "/src/assets/images/foto-11.webp"
+	},
+	{
+		"id": 12,
+		"title": "Tennis Deportivos Unisex",
+		"description": "Ligeros y cómodos, diseñados para máximo rendimiento en entrenamientos o uso casual.",
+		"price": 42.1,
+		"picture": "/src/assets/images/foto-12.webp"
+	},
+	{
+		"id": 13,
+		"title": "Calzado comfort",
+		"description": "Set de tres pares de zapatos para mujer, variados en estilos y colores. Cada par está diseñado para diferentes ocasiones, ofreciendo comodidad y estilo.",
+		"price": 139.2,
+		"picture": "/src/assets/images/foto-13.webp"
+	},
+	{
+		"id": 14,
+		"title": "Black Sport Duo",
+		"description": "Conjunto de camiseta estilo tenis y remera negra. Perfecto para un look casual y deportivo.",
+		"price": 70.9,
+		"picture": "/src/assets/images/foto-14.webp"
+	},
+	{
+		"id": 15,
+		"title": "Urban Class Trio",
+		"description": "Combinación elegante de zapatos, pantalón y cinturón para hombre. Perfecto para el hombre moderno que busca estilo y funcionalidad.",
+		"price": 130.8,
+		"picture": "/src/assets/images/foto-15.webp"
+	},
+	{
+		"id": 16,
+		"title": "Classic Brown Leather Walkers",
+		"description": "Zapatos de cuero marrón para hombre. Duraderos y de calidad superior, ideales para eventos formales o casuales.",
+		"price": 78.0,
+		"picture": "/src/assets/images/foto-16.webp"
+	},
+	{
+		"id": 17,
+		"title": "Canvas Street Kicks",
+		"description": "Tennis de tela con suela blanca, perfectos para el uso diario o actividades ligeras. Diseño cómodo y transpirable.",
+		"price": 82.2,
+		"picture": "/src/assets/images/foto-17.webp"
+	}
+]

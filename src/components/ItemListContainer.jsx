@@ -1,10 +1,20 @@
-import '../App'
+import ItemList from './ItemList'
+import products from '../assets/MOCK_DATA.json'
+import { useEffect, useState } from 'react'
 
-function GreetingComponent({greeting}){
-	 return(
-		<h2 className='greeting'>{greeting}</h2>)
-	
+function ItemListContainer() {
+	const [products2, setProducts] = useState([]);
+
+	useEffect(() => {
+		setTimeout(() => {
+			setProducts(products);
+
+		}, 3000);
+	}, [])
+	return (
+		<ItemList products={products2} />
+	)
 
 }
 
-export default GreetingComponent
+export default ItemListContainer
