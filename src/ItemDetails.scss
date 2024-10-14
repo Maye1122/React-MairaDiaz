@@ -1,0 +1,23 @@
+.item-details {
+	display: block;
+	font-family: "Lora", serif;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	text-align: center;
+
+	&__image {
+		text-align: justify;
+		max-width: 60%;
+		height: auto;
+		border-radius: 5px;
+	}
+
+	&__btn {
+		width: 15%;
+		height: 25px;
+		border-radius: 5px;
+		font-size: 1rem;
+
+	}
+}

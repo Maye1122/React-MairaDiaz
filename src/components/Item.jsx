@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 const Item = ({ Item }) => {
 	return (
 
@@ -7,6 +9,9 @@ const Item = ({ Item }) => {
 			<p>{Item.description}</p>
 			<br />
 			<p> ${Item.price}</p>
+			<NavLink to={`/detail/${Item.id}`}>
+				<button className="item__btn">Detail</button>
+			</NavLink>
 
 		</section>
 
