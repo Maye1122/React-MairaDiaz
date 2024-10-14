@@ -1,15 +1,22 @@
 .footer {
-	display: flex;
+
+	// display: flex;
 	font-family: "Lora", serif;
+	min-height: 3rem;
 	background-color: rgb(228, 225, 227);
 
 	ul {
+		display: grid;
+		grid-template-columns: auto auto auto;
 		text-decoration: none;
+		padding: 0;
+		margin: 0;
 	}
 
 	ul>li {
 		list-style: none;
 		font-size: 1.3rem;
+		text-align: center;
 
 	}
 }

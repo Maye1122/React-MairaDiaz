@@ -10,7 +10,7 @@ const Item = ({ Item }) => {
 			<br />
 			<p> ${Item.price}</p>
 			<NavLink to={`/detail/${Item.id}`}>
-				<button className="item__btn">Detail</button>
+				<button className="item__btn">Detalle del producto</button>
 			</NavLink>
 
 		</section>

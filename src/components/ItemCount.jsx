@@ -9,14 +9,18 @@ function ItemCount() {
 		setContador(contador + 1);
 	};
 	const decrementar = () => {
-		setContador(contador - 1)
+		if (contador > 0) {
+			setContador(contador - 1)
+
+		}
+
 	}
 	return (
-		<div className="item-details">
+		<div className="item-details__count">
 			<button onClick={decrementar}>-</button>
 			<span>{contador}</span>
 			<button onClick={incrementar}>+</button>
-			<button className="item-details__btn">Comprar</button>
+			<button className="item-details__btn">Agregar al Carrito</button>
 		</div>
 	)
 }

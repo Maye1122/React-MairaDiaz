@@ -5,7 +5,7 @@ function Footer() {
 	return (
 		<footer className="footer">
 			<ul>
-				<li>Istagram</li>
+				<li>Instagram</li>
 				<li>Facebook</li>
 				<li>GitHub</li>
 			</ul>

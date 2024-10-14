@@ -10,6 +10,7 @@
 		background-color: rgb(228, 225, 227);
 		font-family: "Lora", serif;
 		height: auto;
+		text-align: center;
 
 
 
@@ -31,10 +32,6 @@
 			text-align: center;
 		}
 
-
-
-
-
 	}
 
 	&__image {
@@ -45,12 +42,54 @@
 		height: 50%;
 	}
 
+	&__btn {
+		display: block;
+		margin: 1rem auto;
+		width: 20rem;
+		height: 2rem;
+		font-size: 1rem;
+		font-family: "Nunito Sans", sans-serif;
+		font-optical-sizing: auto;
+		border-radius: 5px;
 
+	}
+
+	a {
+		text-decoration: none;
+	}
 }
 
-.item__btn {
-	display: flexbox;
-	justify-content: center;
-	width: 50%;
-	font-size: 1rem;
+
+.item-details {
+	display: block;
+	font-family: "Lora", serif;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	text-align: center;
+
+	&__image {
+		text-align: justify;
+		max-width: 60%;
+		height: auto;
+		border-radius: 5px;
+	}
+
+	&__btn {
+		font-family: "Nunito Sans", sans-serif;
+		font-optical-sizing: auto;
+		// width: 15%;
+		// height: 2rem;
+		// border-radius: 5px;
+		// font-size: 1rem;
+		// margin: 1rem;
+
+	}
+
+	&__count>button {
+		margin: 0.5rem;
+	}
+
+
+
 }
