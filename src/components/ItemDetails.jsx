@@ -4,7 +4,7 @@ import ItemCount from "./ItemCount";
 const ItemDetails = ({ product }) => {
 	// Verifica si el producto es nulo o indefinido
 	if (!product) {
-		return <div>Cargando detalles del producto o producto no encontrado...</div>;
+		return <div>Producto no encontrado...</div>;
 	}
 
 	return (

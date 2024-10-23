@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import './index.scss'
-import './ItemList.scss'
-import './App.scss'
-import './ItemDetails.scss'
-import './Footer.scss'
+import './estilos/index.scss'
+import './estilos/ItemList.scss'
+import './estilos/App.scss'
+import './estilos/ItemDetails.scss'
+import './estilos/Footer.scss'
 
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
