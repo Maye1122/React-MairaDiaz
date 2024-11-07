@@ -32,11 +32,11 @@ Estas dependencias son necesarias para que la aplicación funcione correctamente
 Estas dependencias son necesarias solo para el entorno de desarrollo:
 npm install --save-dev
 
-**[@eslint/js@^9.13.0]**: Herramienta para mantener la calidad del código JavaScript.
+- **[@eslint/js@^9.13.0]**: Herramienta para mantener la calidad del código JavaScript.
 - **[@vitejs/plugin-react@^4.3.3]**: Plugin para trabajar con React en Vite.
 - **[sass-embedded@^1.80.3]**: Utilizado para procesar archivos `.scss` y añadir estilos al proyecto.
 - **[vite@^5.4.9]**: Herramienta de desarrollo para compilar y servir el proyecto.
-- **[]**:
+
 
  
 

@@ -8,8 +8,6 @@ import { MyCartProvider } from './context/CartContext'
 import Cart from './components/Cart'
 import Loader from './components/loader'
 import { useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
 
