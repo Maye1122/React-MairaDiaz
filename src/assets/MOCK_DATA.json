@@ -11,7 +11,7 @@
 		"id": 2,
 		"title": "Jeans de Mujer",
 		"description": "Disponibles en varios colores y estilos. Tela de calidad premium que ofrece comodidad y estilo para cualquier ocasión.",
-		"price": 65.5,
+		"price": 50,
 		"picture": "/src/assets/images/foto-2.webp",
 		"category": "women"
 	},
@@ -19,7 +19,7 @@
 		"id": 3,
 		"title": "Camisa a cuadros roja y blanca",
 		"description": "Estilo clásico con una combinación de corbatas de varios diseños. Ideal para un look casual o semiformal.",
-		"price": 39.7,
+		"price": 40,
 		"picture": "/src/assets/images/foto-3.webp",
 		"category": "men"
 	},
@@ -59,7 +59,7 @@
 		"id": 8,
 		"title": "Collares con Piedras Azules",
 		"description": "Collares delicados con piedras azules brillantes. Añade un toque de elegancia y color a cualquier atuendo.",
-		"price": 36.3,
+		"price": 30,
 		"picture": "/src/assets/images/foto-8.webp",
 		"category": "kids"
 	},
