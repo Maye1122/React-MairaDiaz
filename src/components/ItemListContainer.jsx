@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { db } from '../firebase/config';
 import { collection, query, where, getDocs } from "firebase/firestore";
-import Loader from './loader';
+import Loader from './Loader';
 
 
 
