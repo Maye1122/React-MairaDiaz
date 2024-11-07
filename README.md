@@ -15,24 +15,30 @@ npm install
 ### Dependencias de Producción
 
 Estas dependencias son necesarias para que la aplicación funcione correctamente:
-@types/react@^18.3.11 - Tipos de TypeScript para React.
-@types/react-dom@^18.3.1  - Tipos de TypeScript para ReactDOM.
-firebase@^11.0.1 react@^18.3.1 - Utilizado para la gestión de base de datos y autenticación.
-react-dom@^18.3.1 - Biblioteca principal para construir interfaces de usuario.
-react-modal@^3.16.1 - Para trabajar con el DOM en React.
-react-router-dom@^6.27.0 - Utilizado para mostrar modales en la aplicación.
-react-spinners@^0.14.1 - Para mostrar indicadores de carga.
+
+- **[@types/react@^18.3.11]**: Tipos de TypeScript para React.
+- **[@types/react-dom@^18.3.1 ]**: Tipos de TypeScript para ReactDOM.
+- **[firebase@^11.0.1 react@^18.3.1]**: Utilizado para la gestión de base de datos y autenticación.
+- **[react-dom@^18.3.1]**: Biblioteca principal para construir interfaces de usuario.
+- **[react-modal@^3.16.1]**: Para trabajar con el DOM en React.
+- **[react-router-dom@^6.27.0]**: Utilizado para mostrar modales en la aplicación. 
+- **[react-spinners@^0.14.1 ]**: Para mostrar indicadores de carga.
+
+
 
 
 
 ### Dependencias de Desarrollo
 Estas dependencias son necesarias solo para el entorno de desarrollo:
-
 npm install --save-dev
- @eslint/js@^9.13.0 - Herramienta para mantener la calidad del código JavaScript.
- @vitejs/plugin-react@^4.3.3 - Plugin para trabajar con React en Vite.
- sass-embedded@^1.80.3  - Utilizado para procesar archivos `.scss` y añadir estilos al proyecto.
- vite@^5.4.9 - Herramienta de desarrollo para compilar y servir el proyecto.
+
+**[@eslint/js@^9.13.0]**: Herramienta para mantener la calidad del código JavaScript.
+- **[@vitejs/plugin-react@^4.3.3]**: Plugin para trabajar con React en Vite.
+- **[sass-embedded@^1.80.3]**: Utilizado para procesar archivos `.scss` y añadir estilos al proyecto.
+- **[vite@^5.4.9]**: Herramienta de desarrollo para compilar y servir el proyecto.
+- **[]**:
+
+ 
 
 
 ### Dependencias Extrañas o No Necesarias
