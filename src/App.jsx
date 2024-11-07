@@ -6,7 +6,7 @@ import NotFound from './components/NotFound'
 import Footer from './components/Footer'
 import { MyCartProvider } from './context/CartContext'
 import Cart from './components/Cart'
-import Loader from '../components/Loader'
+import Loader from './components/Loader';
 import { useState } from 'react'
 
 function App() {
