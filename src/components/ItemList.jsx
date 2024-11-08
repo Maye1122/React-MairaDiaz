@@ -1,4 +1,4 @@
-import Item from './Item'
+import Item from './TempItem'
 
 const ItemList = ({ products }) => {
 	return (
