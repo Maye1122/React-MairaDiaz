@@ -13,7 +13,7 @@ function ItemListContainer() {
 	const [products, setProducts] = useState([]);
 	const [error, setError] = useState(null);
 	const { categoryId } = useParams();
-	console.log('valor de categoryid', categoryId);
+	// console.log('valor de categoryid', categoryId);
 	
 	if (categoryId === undefined) {
 		console.warn('El parámetro categoryId no está definido en la URL.');
@@ -24,7 +24,7 @@ function ItemListContainer() {
 		const fetchProducts = async () => {
 			try{
 			let productsFiltered = [];
-			console.log(productsFiltered);
+			// console.log(productsFiltered);
 			
 
 			if (categoryId) {
@@ -35,7 +35,7 @@ function ItemListContainer() {
 				querySnapshot.forEach((doc) => {
 					productsFiltered.push({ id: doc.id, ...doc.data() });	
 					// doc.data() is never undefined for query doc snapshots
-					console.log(doc.id, " => ", doc.data());
+					// console.log(doc.id, " => ", doc.data());
 				});
 				 setProducts(productsFiltered);
 			} else {
@@ -43,7 +43,7 @@ function ItemListContainer() {
 				const querySnapshot = await getDocs(collection(db, "products"));
 				querySnapshot.forEach((doc) => {
 					// doc.data() is never undefined for query doc snapshots
-					console.log(doc.id, " => ", doc.data());
+					// console.log(doc.id, " => ", doc.data());
 					productsFiltered.push({ id: doc.id, ...doc.data() })
 				});
 				setProducts(productsFiltered)

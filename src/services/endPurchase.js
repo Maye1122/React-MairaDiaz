@@ -4,8 +4,8 @@ import { doc, addDoc, collection, runTransaction, serverTimestamp } from "fireba
 import { db } from "../firebase/config";
 
 const endPurchase = async (cartItems, buyerData) => {
-	console.log("Contenido del carrito:", cartItems);
-	console.log("Datos del comprador:", buyerData);
+	// console.log("Contenido del carrito:", cartItems);
+	// console.log("Datos del comprador:", buyerData);
 	if (!cartItems || cartItems.length === 0) {
 		console.error("El carrito está vacío o no fue pasado correctamente");
 		return { success: false, message: "El carrito está vacío." };
@@ -72,13 +72,13 @@ const endPurchase = async (cartItems, buyerData) => {
 
 			// Agregar la orden a la colección "orders"
 			const orderRef = await addDoc(orderCollectionRef, newOrder);
-			console.log("Orden creada con ID:", orderRef.id);
+			// console.log("Orden creada con ID:", orderRef.id);
 
 			// Aquí es donde colocas el return
 			return { success: true, order: newOrder, orderId: orderRef.id };
 		});
 
-		console.log("Transacción exitosa:", result);
+		// console.log("Transacción exitosa:", result);
 		return result;
 	} catch (error) {
 		console.error("Error al finalizar la compra:", error);

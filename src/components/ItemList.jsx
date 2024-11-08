@@ -1,16 +1,18 @@
-import Item from './TempItem'
+// src/components/ItemList.jsx
+
+import React from 'react';
+import Item from './Item';
 
 const ItemList = ({ products }) => {
 	return (
 		<div className="item">
-			{products.map((product) => {
-				return (
-					<Item Item={product} key={product.id} />
-				)
-			})}
+			{products.map((product) => (
+				<Item key={product.id} product={product} />
+			))}
 		</div>
-	)
-}
+	);
+};
+
 
 
 export default ItemList

@@ -12,9 +12,6 @@ const Cart = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [orderDetails, setOrderDetails] = useState(null);
 
-	console.log('cartItems:', cartItems); // Para depuración
-	console.log('orderDetails:', orderDetails); // Para depuración
-
 	// Verifica si el carrito está vacío y no hay orden
 	if ((!cartItems || cartItems.length === 0) && !orderDetails) {
 		return <h3>El carrito está vacío</h3>;
@@ -38,11 +35,11 @@ const Cart = () => {
 	const handleBuyerSubmit = async (buyerData) => {
 		const result = await endPurchase(cartItems, buyerData);
 
-		console.log('Resultado de endPurchase:', result);
+
 
 		if (result.success) {
 			setOrderDetails({ ...result.order, id: result.orderId });
-			console.log('orderDetails actualizado:', { ...result.order, id: result.orderId });
+
 			clearCart();
 			closeModal();
 			alert("Compra realizada exitosamente. ¡Gracias por tu compra!");
