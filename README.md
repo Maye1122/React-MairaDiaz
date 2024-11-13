@@ -5,9 +5,19 @@
 Este proyecto es una tienda en línea desarrollada con React y Vite, utilizando Firebase para el manejo del inventario y órdenes en tiempo real. Los usuarios pueden agregar productos al carrito, realizar pedidos, y ver los detalles de sus compras. Se utiliza un modal para ingresar los datos del comprador, y los estilos se manejan con Sass.
 
 ## Instrucciones para Ejecutar
-1. Clonar el repositorio.
-2. Ejecutar `npm install` para instalar las dependencias.
-3. Ejecutar `npm run dev` para iniciar el proyecto en modo de desarrollo.
+1. Clona el repositorio:
+   git clone https://github.com/Maye1122/React-MairaDiaz.git
+
+2. Cambia a la rama entrega-final:
+   cd React-MairaDiaz
+   git checkout entrega-final
+
+3. Instala las dependencias:
+   npm install
+
+4. Ejecuta el proyecto:
+   npm run dev
+
 
 ## Dependencias
 
