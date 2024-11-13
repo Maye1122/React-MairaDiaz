@@ -4,6 +4,11 @@
 
 Este proyecto es una tienda en línea desarrollada con React y Vite, utilizando Firebase para el manejo del inventario y órdenes en tiempo real. Los usuarios pueden agregar productos al carrito, realizar pedidos, y ver los detalles de sus compras. Se utiliza un modal para ingresar los datos del comprador, y los estilos se manejan con Sass.
 
+## Instrucciones para Ejecutar
+1. Clonar el repositorio.
+2. Ejecutar `npm install` para instalar las dependencias.
+3. Ejecutar `npm run dev` para iniciar el proyecto en modo de desarrollo.
+
 ## Dependencias
 
 A continuación, se detalla la lista de dependencias principales utilizadas en el proyecto.
@@ -26,8 +31,6 @@ Estas dependencias son necesarias para que la aplicación funcione correctamente
 
 
 
-
-
 ### Dependencias de Desarrollo
 Estas dependencias son necesarias solo para el entorno de desarrollo:
 npm install --save-dev
@@ -38,7 +41,10 @@ npm install --save-dev
 - **[vite@^5.4.9]**: Herramienta de desarrollo para compilar y servir el proyecto.
 
 
- 
+ ###  @fortawesome/react-fontawesome y @fortawesome/free-solid-svg-icons
+ Si no se instalan automáticamente, instalalos manualmente con:
+ - **[npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons]**
+
 
 
 ### Dependencias Extrañas o No Necesarias
